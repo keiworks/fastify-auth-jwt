@@ -11,7 +11,7 @@ import { type DefaultSettings, settings } from "./settings.js";
 type FastifyAuthOptions = {
   argon2Opts?: Partial<DefaultSettings["argon2"]>;
   errorKey?: string;
-  errorResponses?: ErrorResponses;
+  errorResponses?: Partial<ErrorResponses>;
   prisma: PrismaClient;
   register?: Partial<DefaultSettings["register"]>;
   secretKey: string;
