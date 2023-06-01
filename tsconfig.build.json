@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": ["./prisma/seed.ts", "./tests", "./vitest.config.ts"]
+}
